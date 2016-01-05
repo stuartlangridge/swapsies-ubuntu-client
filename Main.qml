@@ -1,5 +1,6 @@
 import QtQuick 2.2
 import Ubuntu.Components 1.1
+import U1db 1.0 as U1db
 
 /*!
     \brief MainView with a Label and Button elements.
@@ -20,17 +21,47 @@ MainView {
     //automaticOrientation: true
 
 
-    width: units.gu(100)
-    height: units.gu(75)
+    width: units.gu(40)
+    height: units.gu(71)
+
+    U1db.Database { id: db; path: "swapsies.u1db" }
+    U1db.Document {
+        id: myid
+        database: db
+        docId: "myid"
+        create: true
+        Component.onCompleted: {
+            if (!myid.contents.myid) {
+                myid.contents = {myid: Qt.md5(Math.random() + "-" + Math.random())};
+            }
+        }
+    }
+    U1db.Index {
+        database: db
+        id: by_identifier
+        /* You have to specify in the index all fields you want to retrieve
+           The query should return the whole document, not just indexed fields
+           https://bugs.launchpad.net/u1db-qt/+bug/1271973 */
+        expression: ["things.identifier"]
+    }
+    U1db.Query {
+        id: identifiers
+        index: by_identifier
+        query: ["*"]
+    }
 
     function exec_Code(code) {
         console.log("got code!", code);
+        mycode.text = code;
+        col.state = "gotcode";
     }
     function exec_Seconds(seconds) {
         console.log("got seconds!", seconds);
+        labelcountdown.text = seconds;
     }
     function exec_Pair(identifier) {
         console.log("got pair!", identifier);
+        db.putDoc({things: {identifier: identifier}})
     }
 
     property var seenLines: [];
@@ -64,6 +95,7 @@ MainView {
     }
     function resetReadyForNextRequest() {
         root.seenLines = [];
+        col.state = "";
     }
 
     function removePendingCodeRequest(code, status) {
@@ -82,7 +114,7 @@ MainView {
         pendingCodeRequests.append({code: code, status: "pending"});
         var listElem = pendingCodeRequests.get(pendingCodeRequests.count - 1);
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "http://localhost:3000/sendcode?code=" + code + "&id=uniq");
+        xhr.open("POST", "http://localhost:3000/sendcode?code=" + code + "&id=" + myid.contents.myid);
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4) {
                 var j;
@@ -95,6 +127,7 @@ MainView {
                 }
                 if (j.status == "ok") {
                     console.log("got new identifier", j.identifier);
+                    db.putDoc({things: {identifier: j.identifier}})
                     listElem.status = "done";
                     root.fireAfter(2000, root.removePendingCodeRequest(code, "done"));
                 } else {
@@ -121,8 +154,10 @@ MainView {
     }
 
     function getCode() {
+        mycode.text = "....";
+        col.state = "gotcode";
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "http://localhost:3000/getcode?id=uniq", true);
+        xhr.open("POST", "http://localhost:3000/getcode?id=" + myid.contents.myid, true);
         var timer = root.fireAfter(5000, function() {
             xhr.abort();
             console.log("server request timed out error");
@@ -152,10 +187,56 @@ MainView {
                         fill: parent
                     }
 
+                    states: [
+                        State {
+                            name: ""
+                            PropertyChanges { target: labelgive; visible: true }
+                            PropertyChanges { target: buttongive; visible: true }
+                            PropertyChanges { target: labelgotmycode; visible: false }
+                            PropertyChanges { target: mycode; visible: false }
+                            PropertyChanges { target: labelcountdown; visible: false }
+                        },
+                        State {
+                            name: "gotcode"
+                            PropertyChanges { target: labelgive; visible: false }
+                            PropertyChanges { target: buttongive; visible: false }
+                            PropertyChanges { target: labelgotmycode; visible: true }
+                            PropertyChanges { target: mycode; visible: true }
+                            PropertyChanges { target: labelcountdown; visible: true }
+                        }
+                    ]
+
+                    Label {
+                        id: labelgotmycode
+                        text: i18n.tr("Show others this code to swap with you:")
+                        visible: false
+                        wrapMode: Text.Wrap
+                        width: parent.width
+                    }
+
+                    Label {
+                        id: mycode
+                        text: "0000"
+                        horizontalAlignment: Text.AlignHCenter
+                        width: parent.width
+                        fontSize: "x-large"
+                        visible: false
+                    }
+
+                    Label {
+                        id: labelcountdown
+                        text: "--"
+                        width: parent.width
+                        horizontalAlignment: Text.AlignRight
+                        fontSize: "x-small"
+                        visible: false
+                    }
+
                     Label {
                         id: labelgive
                         objectName: "labelgive"
-
+                        wrapMode: Text.Wrap
+                        width: parent.width
                         text: i18n.tr("When you meet someone else and want to swap, you can...")
                     }
 
@@ -230,7 +311,7 @@ MainView {
         }
 
         Tab {
-            title: i18n.tr("Winnings")
+            title: i18n.tr("Winnings") + " (" + (identifiers.documents.length || 0) + ")"
             page: Page {
                 Column {
                     id: "col2"
@@ -241,7 +322,18 @@ MainView {
                     }
 
                     Label {
-                        text: "win"
+                        text: "Identifiers you have found"
+                    }
+                    Label {
+                        text: identifiers.documents.length;
+                    }
+
+                    Repeater {
+                        model: identifiers
+
+                        Label {
+                            text: model.contents.identifier
+                        }
                     }
 
                 }
