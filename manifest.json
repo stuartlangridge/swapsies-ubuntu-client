@@ -1,0 +1,17 @@
+{
+    "name": "swapsies.sil",
+    "description": "description of Swapsies",
+    "architecture": "all",
+    "title": "Swapsies",
+    "hooks": {
+        "Swapsies": {
+            "apparmor": "Swapsies.apparmor",
+            "desktop":  "Swapsies.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Stuart Langridge <sil-launchpad@kryogenix.org>",
+    "framework" : "ubuntu-sdk-15.04.3"
+}
+
+

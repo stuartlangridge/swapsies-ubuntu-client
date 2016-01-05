@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Swapsies
+Exec=qmlscene %U Main.qml
+Icon=Swapsies.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
