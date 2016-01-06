@@ -64,6 +64,12 @@ MainView {
     function exec_Pair(identifier) {
         console.log("got pair!", identifier);
         db.putDoc({things: {identifier: identifier}})
+        var newface = Qt.createQmlObject("import QtQuick 2.2; " +
+                "Face {height: parent.height; width: parent.height; identifier: '" + identifier + "'}",
+                                       addedPairs);
+        root.fireAfter(6000, function() {
+            newface.destroy();
+        });
     }
 
     property var seenLines: [];
@@ -248,6 +254,49 @@ MainView {
                         width: parent.width
                         fontSize: "x-large"
                         visible: false
+
+                        Row {
+                            id: addedPairs
+                            width: parent.width
+                            height: parent.height / 2
+                            spacing: units.gu(0.5)
+
+                            add: Transition {
+                                id: newPair
+
+                                SequentialAnimation {
+                                    ParallelAnimation {
+                                        NumberAnimation {
+                                            property: "scale";
+                                            from: 0;
+                                            to: 15;
+                                            duration: 50
+                                        }
+                                        NumberAnimation {
+                                            property: "x";
+                                            from: mycode.width / 2;
+                                            to: mycode.width / 2;
+                                            easing.type: Easing.InQuad
+                                            duration: 50;
+                                        }
+                                    }
+                                    ParallelAnimation {
+                                        NumberAnimation {
+                                            property: "scale";
+                                            from: 15;
+                                            to: 1.0;
+                                            duration: 300
+                                        }
+                                        NumberAnimation {
+                                            property: "x";
+                                            from: mycode.width / 2;
+                                            easing.type: Easing.OutQuad
+                                            duration: 300;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
 
                     Label {
