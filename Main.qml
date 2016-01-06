@@ -1,6 +1,8 @@
 import QtQuick 2.2
 import Ubuntu.Components 1.1
 import U1db 1.0 as U1db
+import QtQuick.Layouts 1.1
+
 
 /*!
     \brief MainView with a Label and Button elements.
@@ -31,8 +33,6 @@ MainView {
         docId: "myid"
         create: true
         Component.onCompleted: {
-            console.log("myid is", myid);
-            console.log("myid contents is", myid.contents);
             if (!myid.contents || !myid.contents.myid) {
                 myid.contents = {myid: Qt.md5(Math.random() + "-" + Math.random())};
             }
@@ -163,8 +163,27 @@ MainView {
         var timer = root.fireAfter(5000, function() {
             xhr.abort();
             console.log("server request timed out error");
+            col.state = "";
+            buttongive.state = "error";
+            root.fireAfter(2000, function() {
+                buttongive.state = "";
+                root.resetReadyForNextRequest();
+            });
         });
         xhr.onreadystatechange = function() {
+            console.log("rst", xhr.readyState);
+            if (xhr.status == 0) {
+                console.log("Some sort of connection error. :(", xhr.responseText, "!", xhr.readyState);
+                timer.cancel();
+                col.state = "";
+                buttongive.state = "error";
+                root.fireAfter(2000, function() {
+                    buttongive.state = "";
+                    root.resetReadyForNextRequest();
+                });
+                return;
+            }
+
             if (xhr.readyState == 4) {
                 root.resetReadyForNextRequest();
             } else if (xhr.readyState == 3) {
@@ -252,12 +271,24 @@ MainView {
                         id: buttongive
                         objectName: "buttongive"
                         width: parent.width
+                        enabled: state == ""
 
                         text: i18n.tr("Get a code to give them")
 
                         onClicked: {
                             root.getCode();
                         }
+                        states: [
+                            State {
+                                name: ""
+                                PropertyChanges { target: buttongive; text: i18n.tr("Get a code to give them") }
+                            },
+                            State {
+                                name: "error"
+                                PropertyChanges { target: buttongive; text: i18n.tr("Connection error") }
+                            }
+                        ]
+
                     }
                     Label {
                         id: labelenter
@@ -336,13 +367,19 @@ MainView {
                         text: identifiers.documents.length;
                     }
 
-                    Repeater {
-                        model: identifiers
-
-                        Label {
-                            text: model.contents.identifier
+                    GridLayout {
+                        columns: 3
+                        columnSpacing: units.gu(0.5)
+                        Repeater {
+                            model: identifiers
+                            Face {
+                                width: (col2.width - units.gu(1)) / 3
+                                height: (col2.width - units.gu(1)) / 3
+                                identifier: model.contents.identifier
+                            }
                         }
                     }
+
 
                 }
             }
