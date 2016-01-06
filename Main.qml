@@ -114,7 +114,7 @@ MainView {
         pendingCodeRequests.append({code: code, status: "pending"});
         var listElem = pendingCodeRequests.get(pendingCodeRequests.count - 1);
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "http://localhost:3000/sendcode?code=" + code + "&id=" + myid.contents.myid);
+        xhr.open("POST", "http://swapsies.popey.com/sendcode?code=" + code + "&id=" + myid.contents.myid);
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4) {
                 var j;
@@ -157,7 +157,7 @@ MainView {
         mycode.text = "....";
         col.state = "gotcode";
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "http://localhost:3000/getcode?id=" + myid.contents.myid, true);
+        xhr.open("POST", "http://swapsies.popey.com/getcode?id=" + myid.contents.myid, true);
         var timer = root.fireAfter(5000, function() {
             xhr.abort();
             console.log("server request timed out error");
