@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2753"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="/home/cris/trunk/themes/artistic/Mouth"
+   sodipodi:docname="mouth5.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2755" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8425"
+     inkscape:cx="200"
+     inkscape:cy="200"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2753"
+     width="400px"
+     height="400px"
+     inkscape:window-width="1280"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata2758">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="fill:#c83737;fill-opacity:1;stroke:#000000;stroke-opacity:1;display:inline"
+     id="g2268"
+     transform="matrix(1.0734991,-8.8656999e-2,8.8999037e-2,0.9138467,-42.294389,80.346399)">
+    <g
+       id="g2280">
+      <path
+         style="fill:#c83737;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.02860737px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 168.12385,252.41562 C 177.57616,252.7849 184.29494,244.41801 193.7595,244.84381 C 203.22286,245.26955 202.27471,249.54463 204.92979,250.29457 C 207.89345,249.93596 210.09418,245.90679 216.34686,246.48921 C 222.35286,247.04866 232.25632,255.597 241.24028,255.77709 C 226.60884,282.85948 219.50869,271.2431 204.14221,270.91839 C 189.30135,270.6035 185.40322,280.08645 168.12385,252.41562 z "
+         sodipodi:nodetypes="czczczc"
+         id="path2270" />
+      <path
+         style="fill:#c83737;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path2272"
+         sodipodi:nodetypes="cszc"
+         d="M 168.03765,252.26284 C 176.92385,257.85875 188.45602,251.76061 197.60296,255.95393 C 204.31682,259.03183 204.55432,260.26193 211.76163,257.16541 C 219.08957,254.01706 231.21543,260.71775 240.83689,256.06159" />
+    </g>
+  </g>
+</svg>

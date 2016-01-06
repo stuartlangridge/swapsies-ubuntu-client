@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2753"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="/home/cris/trunk/themes/artistic/Mouth"
+   sodipodi:docname="mouth7.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2755" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="199.28685"
+     inkscape:cy="105.77656"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2753"
+     width="400px"
+     height="400px"
+     inkscape:window-width="1280"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata2758">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g2172">
+    <g
+       id="g2168">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+         d="M 161.57707,294.26699 C 173.71512,297.66058 186.5459,292.87647 198.63765,296.63635 C 203.11866,297.50605 207.54834,296.06516 211.93374,295.40121 C 220.40074,294.695 229.21745,297.11582 237.38058,293.88893"
+         id="path2168" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
+         d="M 188.0501,306.93437 C 198.70046,309.89268 206.84517,308.09982 215.87385,306.93437"
+         id="path2170"
+         sodipodi:nodetypes="cz" />
+    </g>
+    <path
+       id="path3311"
+       d="M 162.72091,291.96713 C 162.10595,292.2888 161.30789,293.76392 160.80203,294.26979 C 160.33503,294.73678 160.21811,295.8214 160.03448,296.18867"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path3313"
+       d="M 236.21396,291.96713 C 235.31849,292.86261 238.33404,293.52087 238.90039,294.65356 C 239.12665,295.10608 239.09941,295.43538 239.28417,295.80489"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

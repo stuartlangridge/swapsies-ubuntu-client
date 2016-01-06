@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2753"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="/home/cris/trunk/themes/artistic/Hair"
+   sodipodi:docname="hair8.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2755" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3"
+     inkscape:cx="200"
+     inkscape:cy="200"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2753"
+     width="400px"
+     height="400px"
+     inkscape:window-width="1090"
+     inkscape:window-height="732"
+     inkscape:window-x="91"
+     inkscape:window-y="146" />
+  <metadata
+     id="metadata2758">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="opacity:1;fill:#e9ddaf;fill-opacity:1;fill-rule:evenodd;stroke:#766f43;stroke-width:2.93124795;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
+     d="M 73.32834,175.1697 C 67.24832,262.75435 90.379445,345.78717 117.17674,361.26256 C 125.2947,365.95067 156.8493,333.44733 136.16257,287.17679 C 122.39891,254.75241 105.54903,180.31337 121.51644,156.23098 C 137.48385,132.14859 156.83241,111.08419 198.94057,116.03762 C 219.15611,159.28501 261.58928,146.88064 272.4577,164.82179 C 284.84122,185.26402 278.85006,252.8012 260.60897,286.8847 C 253.81477,308.38265 261.23801,377.61385 295.47991,357.22785 C 329.72181,336.84184 326.73798,227.97446 325.98108,187.99232 C 325.2239,147.99454 318.4574,124.63465 297.1847,96.525355 C 275.91202,68.416055 237.9965,50.339596 196.9779,64.27286 C 124.78311,49.749365 79.40629,87.614905 73.32834,175.1697 z "
+     sodipodi:nodetypes="csczcscczzcz"
+     id="path2263" />
+</svg>

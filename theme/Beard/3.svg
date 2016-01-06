@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2753"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="/home/cris/trunk/themes/artistic/Beard"
+   sodipodi:docname="beard5.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2755" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.835"
+     inkscape:cx="200"
+     inkscape:cy="200"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2753"
+     width="400px"
+     height="400px"
+     inkscape:window-width="1272"
+     inkscape:window-height="946"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     showgrid="false" />
+  <metadata
+     id="metadata2758">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 110.62506,196.6432 C 110.63162,226.81136 125.52477,248.17619 140.29799,274.69231 C 148.89136,282.64992 140.07631,289.86004 166.95529,277.6452 C 193.83427,265.43035 225.45542,266.24625 254.13244,286.31182 C 264.97583,286.08154 269.77537,272.58472 273.73364,265.82079 C 279.13115,259.1499 284.90845,243.04207 287.50546,234.98559 C 289.75748,224.68677 290.17488,221.7352 292.68134,207.75514 C 291.83802,200.49331 295.00107,192.06323 301.98296,198.60073 C 300.88038,211.77103 300.08478,220.02397 298.59447,227.30685 C 296.93125,243.64149 295.68232,254.49196 291.69829,268.56633 C 281.63951,298.17899 277.5725,301.70917 262.22164,301.95663 C 241.55315,296.06008 224.07674,287.39649 201.4216,286.84419 C 184.1526,285.25356 161.44227,293.29609 146.05925,301.40862 C 129.09516,305.61458 124.08485,299.57285 113.09587,276.72968 C 107.31901,255.37337 105.74735,240.35469 101.89614,216.29247 C 102.13424,205.37908 99.466949,195.8219 110.62506,196.6432 z "
+     id="path2218"
+     sodipodi:nodetypes="cczccccccccccccc" />
+</svg>

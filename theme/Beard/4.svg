@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2753"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="/home/cris/trunk/themes/artistic/Beard"
+   sodipodi:docname="beard3.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2755" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8425"
+     inkscape:cx="200"
+     inkscape:cy="200"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2753"
+     width="400px"
+     height="400px"
+     inkscape:window-width="1280"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata2758">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     sodipodi:nodetypes="ccccccccccccccccccccccccc"
+     id="path4511"
+     d="M 110.32447,238.42913 C 110.84215,251.16162 109.74212,250.19153 111.39725,262.82936 C 113.96233,282.4318 117.99409,284.92613 128.40396,301.84814 C 134.31964,316.29544 146.38581,326.68148 158.78699,335.50439 C 173.10996,345.74938 198.59081,348.07428 216.70694,347.19876 C 240.49686,343.81125 249.9615,332.87035 264.86273,315.31689 C 272.40428,305.22833 273.91611,303.74993 279.51409,292.35276 C 286.92122,275.17529 291.56534,256.71912 293.4747,238.10276 C 292.51364,240.67495 286.1836,254.29475 280.85406,259.79026 C 267.54384,278.51933 250.05051,284.55868 226.38794,280.66891 C 212.10119,277.81989 199.66065,277.25277 185.15012,279.50439 C 170.06261,281.07698 153.48355,283.01213 139.31894,274.70982 C 125.75303,264.83273 111.5046,231.76659 110.32447,238.42913 z M 202.63204,289.69189 C 210.68745,289.38478 218.20174,294.87008 226.34639,293.00439 C 231.85281,292.32807 238.3211,290.69892 243.01811,294.66064 C 249.19402,300.06983 248.41617,310.70543 242.45719,315.97314 C 238.10878,321.29485 229.97532,324.70795 223.60413,320.97314 C 219.53365,318.32236 215.69916,314.34493 210.51605,314.31689 C 202.69633,312.9017 193.865,314.10518 187.83005,319.66064 C 179.28196,325.40512 166.34176,320.7261 162.68225,311.28564 C 161.04243,307.90875 160.33666,304.02095 161.12415,300.31689 C 160.75888,294.93569 166.23949,290.25591 171.46996,291.06689 C 181.29015,290.00165 188.76041,293.40891 198.30555,289.84814 C 198.84786,289.77223 202.09502,289.71236 202.63204,289.69189 z "
+     style="opacity:0.28176796;fill:#502d16;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+</svg>

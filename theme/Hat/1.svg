@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2753"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="/home/cris/trunk/themes/artistic/Hat"
+   sodipodi:docname="redhat1.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2755" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8425"
+     inkscape:cx="200"
+     inkscape:cy="200"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2753"
+     width="400px"
+     height="400px"
+     inkscape:window-width="1280"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata2758">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     sodipodi:type="arc"
+     style="opacity:1;fill:#c83737;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path4953"
+     sodipodi:cx="219.2673"
+     sodipodi:cy="137.31343"
+     sodipodi:rx="141.65536"
+     sodipodi:ry="60.786976"
+     d="M 360.92267 137.31343 A 141.65536 60.786976 0 1 1  77.611938,137.31343 A 141.65536 60.786976 0 1 1  360.92267 137.31343 z"
+     transform="matrix(1.3134096,0,0,0.9357136,-85.002713,0.1435369)" />
+  <path
+     style="fill:#c83737;fill-rule:evenodd;stroke:#000000;stroke-width:1.10788107px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 128.96812,27.343245 C 120.91115,36.615833 111.14775,73.985971 107.07942,100.73794 C 106.08054,107.30625 104.9795,112.58689 104.12446,117.3794 C 131.17528,129.07109 168.01262,136.38219 208.66193,136.58123 C 243.54309,136.75204 275.11336,129.4826 300.69874,120.81737 C 300.43763,95.101989 289.33864,14.811739 253.32091,22.65355 C 216.77178,30.611058 186.46357,29.355763 168.03616,22.523072 C 149.60875,15.690382 137.02508,18.070656 128.96812,27.343245 z "
+     id="path5949"
+     sodipodi:nodetypes="cscscszz" />
+  <path
+     style="opacity:1;fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 155.88795,79.131854 C 157.62818,89.352228 158.52333,107.34206 153.82221,118.02738 C 150.59972,126.92523 148.47708,107.59846 145.81267,98.400425 C 145.08025,82.716711 131.05995,81.840367 122.17041,73.912613 C 117.27406,68.044216 117.29706,61.618905 123.4421,51.007563 C 137.38966,52.144345 151.05992,65.185197 155.88795,79.131854 z "
+     id="path5966"
+     sodipodi:nodetypes="cccccc" />
+  <path
+     sodipodi:nodetypes="cccccc"
+     id="path5987"
+     d="M 247.39344,80.689689 C 244.66961,90.701569 242.09455,108.52992 245.92195,119.61536 C 248.40045,128.78077 252.35538,109.73753 255.93104,100.83123 C 258.1269,85.283755 272.56046,85.740149 282.39175,78.688818 C 287.94528,73.309551 288.51416,66.909429 283.20179,55.76079 C 268.81867,55.570618 253.62186,67.260096 247.39344,80.689689 z "
+     style="opacity:1;fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <path
+     style="fill:#1a1a1a;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 104.07055,115.73949 C 100.90187,138.29425 99.835596,138.27839 106.13856,141.47817 C 112.38769,144.65062 129.27299,150.35732 155.12502,154.20527 C 180.95695,158.05023 218.01191,159.76176 252.55843,156.45137 C 267.91125,153.8771 293.26586,150.64584 300.17546,145.99117 C 303.3667,143.84139 303.20213,142.03398 300.77429,120.37888 C 292.85297,123.85696 279.69565,126.65146 266.35663,128.73311 C 245.12422,132.22054 233.00556,133.0625 209.18297,133.09055 C 182.69064,132.63125 159.70076,131.02019 132.21088,124.34077 C 123.29982,122.13738 111.67523,121.49326 104.07055,115.73949 z "
+     id="path5989"
+     sodipodi:nodetypes="czzcsccccc" />
+  <path
+     style="opacity:1;fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 251.49539,25.129245 C 264.26422,25.375083 252.11764,53.994616 213.47872,50.869781 C 125.26191,26.852756 243.13742,35.429672 251.49539,25.129245 z "
+     id="path6004"
+     sodipodi:nodetypes="ccc" />
+  <path
+     style="fill:#000000;fill-opacity:0.09941521;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 105.86203,184.54008 C 96.753812,215.52692 133.814,250.62596 167.97087,238.80452 C 182.81129,232.04733 200.28315,213.5788 217.32703,226.61742 C 228.70114,236.58817 243.82405,246.02477 260.2826,240.47259 C 278.06755,235.96595 289.15059,220.26586 295.3194,204.80299 C 299.77623,193.63139 296.86551,175.33169 280.96304,179.54741 C 224.27308,187.92705 166.36028,184.50715 109.72494,177.46435 C 107.54497,179.41823 108.04193,182.58616 105.86203,184.54008 z "
+     id="path2256"
+     sodipodi:nodetypes="ccccsccc" />
+</svg>

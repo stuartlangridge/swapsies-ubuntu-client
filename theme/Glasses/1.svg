@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2753"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="/home/cris/trunk/themes/artistic/Glasses"
+   sodipodi:docname="sun_glasses1.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2755" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3"
+     inkscape:cx="200"
+     inkscape:cy="200"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2753"
+     width="400px"
+     height="400px"
+     inkscape:window-width="1090"
+     inkscape:window-height="732"
+     inkscape:window-x="91"
+     inkscape:window-y="146" />
+  <metadata
+     id="metadata2758">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g2167"
+     transform="translate(2,0)">
+    <path
+       sodipodi:nodetypes="cczzccz"
+       id="path3317"
+       d="M 125.06008,191.78251 C 133.32795,190.85545 160.87653,189.62672 179.16028,194.72922 C 187.89683,198.42259 187.87475,208.98029 186.49336,214.8007 C 185.1251,220.56575 184.21235,233.46375 171.6209,235.68349 C 159.34158,237.84821 136.688,242.47157 119.09789,234.56582 C 108.52894,228.93236 102.65095,208.66167 108.68353,198.07409 C 111.99726,192.74944 116.98757,192.68766 125.06008,191.78251 z "
+       style="opacity:0.69613259;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.88418192px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="opacity:0.69613259;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.88418192px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 272.37052,191.78251 C 264.10265,190.85545 236.55407,189.62672 218.27032,194.72922 C 209.53377,198.42259 209.55585,208.98029 210.93724,214.8007 C 212.3055,220.56575 213.21825,233.46375 225.8097,235.68349 C 238.08902,237.84821 260.7426,242.47157 278.33271,234.56582 C 288.90166,228.93236 294.77965,208.66167 288.74707,198.07409 C 285.43334,192.74944 280.44303,192.68766 272.37052,191.78251 z "
+       id="path3433"
+       sodipodi:nodetypes="cczzccz" />
+    <path
+       sodipodi:nodetypes="czzz"
+       id="path3435"
+       d="M 199.02721,211.2884 C 205.80792,211.12608 212.17726,216.89996 213.33141,209.54417 C 214.46133,202.34277 184.13613,202.57138 185.00794,209.51147 C 185.89657,216.58545 192.24649,211.45071 199.02721,211.2884 z "
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2753"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="/home/cris/trunk/themes/artistic/Hair"
+   sodipodi:docname="hair16.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2755" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="200"
+     inkscape:cy="200"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2753"
+     width="400px"
+     height="400px"
+     inkscape:window-width="1280"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata2758">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:#1a1a1a;fill-rule:evenodd;stroke:#000000;stroke-width:1.02050257px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 102.58803,194.69167 C 96.070624,164.81725 103.18634,135.98277 120.49671,112.16074 C 137.80708,88.338723 179.92135,77.106843 204.61318,77.67865 C 228.76234,78.250459 255.96226,83.62231 275.70517,104.8121 C 295.44808,126.00189 307.40834,159.88759 306.63833,191.29998 C 305.55296,194.4936 304.50233,199.57729 302.83952,197.80071 C 296.99578,191.54986 296.09611,194.6498 296.59862,200.06183 C 296.99799,204.36306 290.55155,198.63248 288.45832,194.69166 C 286.1415,190.32991 290.22164,208.65358 282.21742,198.64862 C 277.79414,193.11971 277.53718,205.57423 274.34846,198.93127 C 270.76291,191.46164 266.97492,205.16951 264.85143,200.90974 C 259.361,189.89582 258.72045,207.41406 256.43979,198.93127 C 254.08858,190.18609 254.05054,207.02431 251.5556,199.2139 C 249.575,193.01364 247.9784,198.70043 246.94276,199.77918 C 246.839,199.88726 242.98449,193.82635 241.78724,200.06182 C 240.93465,204.50226 237.84245,190.18799 235.81768,199.77918 C 234.3107,206.91762 228.13557,187.30463 227.40603,199.77919 C 227.0495,205.87568 222.1793,191.93944 220.89379,196.95279 C 219.37287,202.8842 217.54265,203.89944 215.19557,198.64862 C 213.06785,193.88856 212.59895,209.38762 208.41199,198.36598 C 204.97779,189.32591 203.92565,211.55683 200.54303,198.08336 C 199.67761,194.63628 197.51277,192.27523 191.31734,201.19239 C 189.26359,204.1484 188.48669,191.26155 184.26242,200.06183 C 183.07347,202.53872 180.20742,190.20329 177.79674,200.24748 C 177.43609,201.75008 175.02335,191.74769 170.88712,200.36455 C 169.88219,202.45808 164.48671,186.85505 162.2836,198.93126 C 161.6182,202.57858 159.26913,192.78397 155.9303,200.81275 C 155.54959,201.72825 154.10628,192.18646 150.61584,198.08335 C 146.30617,205.36426 144.71046,190.59934 143.28956,194.12639 C 141.20237,199.30732 138.66417,207.19745 136.23462,198.08335 C 133.73521,188.70713 131.95346,209.20279 130.53641,196.95279 C 129.15159,184.98133 124.98534,205.3366 124.02417,197.23543 C 123.06764,189.17344 120.76861,205.2911 118.86864,192.99582 C 118.27193,189.13435 115.63507,205.67326 113.44178,194.12638 C 111.9222,186.12639 109.24138,192.26871 108.55759,194.69167 C 105.67633,204.90118 104.32828,196.95754 102.58803,194.69167 z "
+     id="path3134"
+     sodipodi:nodetypes="czzzcsssssszssssssssssssssssszzzsssc" />
+</svg>

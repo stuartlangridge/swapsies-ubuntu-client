@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="400"
+   id="svg2753"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="/home/cris/trunk/themes/artistic/Beard"
+   sodipodi:docname="beard1.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2755" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8425"
+     inkscape:cx="200"
+     inkscape:cy="200"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2753"
+     width="400px"
+     height="400px"
+     inkscape:window-width="1280"
+     inkscape:window-height="949"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata2758">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="opacity:0.28176796;fill:#502d16;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 107.51794,220.34977 C 108.03708,233.08226 106.93395,232.11217 108.59375,244.75 C 111.16606,264.35244 116.84201,283.67174 127.28125,300.59375 C 133.21362,315.04105 145.31383,325.42709 157.75,334.25 C 172.11338,344.49499 188.95776,353.87552 207.125,353 C 230.98204,349.61249 249.18173,331.61596 264.125,314.0625 C 271.68783,303.97394 280.82373,294.89717 286.4375,283.5 C 293.86553,266.32253 298.52275,247.86636 300.4375,229.25 C 299.47373,231.82219 293.12583,245.44199 287.78125,250.9375 C 274.43348,269.66657 251.44808,284.38977 227.71875,280.5 C 213.39169,277.65098 198.73897,275.99838 184.1875,278.25 C 169.05743,279.82259 152.4316,281.75774 138.22702,273.45543 C 124.62284,263.57834 108.7014,213.68723 107.51794,220.34977 z M 201.71875,288.4375 C 209.79688,288.13039 217.33237,293.61569 225.5,291.75 C 231.02195,291.07368 237.50849,289.44453 242.21875,293.40625 C 248.41209,298.81544 247.63204,309.45104 241.65625,314.71875 C 237.29557,320.04046 229.13917,323.45356 222.75,319.71875 C 218.66804,317.06797 214.82273,313.09054 209.625,313.0625 C 201.78322,311.64731 192.92697,312.85079 186.875,318.40625 C 178.30279,324.15073 165.32608,319.47171 161.65625,310.03125 C 160.0118,306.65436 159.30404,302.76656 160.09375,299.0625 C 159.72745,293.6813 165.22352,289.00152 170.46875,289.8125 C 180.31664,288.74726 187.80798,292.15452 197.38005,288.59375 C 197.92389,288.51784 201.18021,288.45797 201.71875,288.4375 z "
+     id="path4511"
+     sodipodi:nodetypes="ccccccccccccccccccccccccc" />
+</svg>

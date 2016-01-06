@@ -186,6 +186,12 @@ MainView {
                         margins: units.gu(2)
                         fill: parent
                     }
+                    Face {
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        identifier: myid.contents.myid
+                        width: parent.width / 2
+                        height: parent.width / 2
+                    }
 
                     states: [
                         State {
