@@ -31,7 +31,9 @@ MainView {
         docId: "myid"
         create: true
         Component.onCompleted: {
-            if (!myid.contents.myid) {
+            console.log("myid is", myid);
+            console.log("myid contents is", myid.contents);
+            if (!myid.contents || !myid.contents.myid) {
                 myid.contents = {myid: Qt.md5(Math.random() + "-" + Math.random())};
             }
         }

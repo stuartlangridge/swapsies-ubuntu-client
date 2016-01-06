@@ -25,7 +25,7 @@ Rectangle {
     color: root.getColour()
 
     function getColour() {
-        var c = "#" + root.identifier.substring(11,16);
+        var c = "#" + root.identifier.substring(11,17);
         console.log(c);
         return c;
     }
@@ -33,7 +33,7 @@ Rectangle {
     function getFaceParts() {
         var r = [];
         var fps = "Head,Ears,Beard,Mouth,Nose,Eyes,Eyebrows,Hair,Glasses,Accessories,Hat".split(",");
-        var optionals = "Beard,Accessories,Hair,Glasses".split(",");
+        var optionals = "Beard,Accessories,Hair,Glasses,Hat".split(",");
         for (var i=0; i<fps.length; i++) {
             var fp = fps[i];
             var v = parseInt(root.identifier.charAt(i), 16);
@@ -58,7 +58,7 @@ Rectangle {
         }
     }
 
-    Component.onCompleted: {
+    onIdentifierChanged: {
         root.getFaceParts().forEach(function(fp) {
             m.append(fp);
         })
